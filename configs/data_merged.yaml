@@ -1,0 +1,33 @@
+# Jeu fusionné xView + DOTA, taxonomie unifiée à 22 classes.
+# Fichier généré par le notebook 06 (cellule « data_merged.yaml ») ; recopié ici pour référence.
+# Sur Kaggle, `path` valait /kaggle/working/train_data : adapter au dossier local construit par le notebook 06.
+path: /kaggle/working/train_data
+train: images/train
+val: images/val
+nc: 22
+names:
+  # 6 classes communes à xView et DOTA
+  - plane
+  - helicopter
+  - ship
+  - storage-tank
+  - small-vehicle
+  - large-vehicle
+  # 9 classes présentes seulement dans DOTA
+  - harbor
+  - bridge
+  - tennis-court
+  - swimming-pool
+  - basketball-court
+  - soccer-ball-field
+  - ground-track-field
+  - baseball-diamond
+  - roundabout
+  # 7 classes présentes seulement dans xView (regroupements)
+  - building
+  - vehicle-lot
+  - railway-vehicle
+  - shipping-container
+  - engineering-vehicle
+  - construction-site
+  - infrastructure-diverse

@@ -1,0 +1,3 @@
+ligne,epoch,precision,recall,mAP50,mAP50-95
+meilleure époque (mAP50-95 max),110,0.6825,0.5652,0.5838,0.3699
+dernière époque,124,0.6903,0.5572,0.5845,0.3697
