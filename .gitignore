@@ -37,3 +37,6 @@ access_token
 .idea/
 Thumbs.db
 .DS_Store
+
+# Notebooks Kaggle bruts (versions nettoyées dans notebooks/ et archive/)
+kaggle/
