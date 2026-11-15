@@ -1,0 +1,31 @@
+# God's Eye : environnement de l'entraînement et de l'inférence finaux (Kaggle)
+# Python 3.12.13 (journal d'Ultralytics dans notebooks/06_split_entrainement.ipynb)
+#
+# Versions épinglées : lues dans les sorties des notebooks.
+#   ultralytics et torch : en-tête « Ultralytics 8.4.163 ... torch-2.10.0+cu128 » (notebook 06)
+#   sahi                 : journal « pip install sahi » du notebook 08
+#   matplotlib           : version déjà installée sur l'image Kaggle (journal pip du notebook 08)
+# Les autres paquets n'ont pas de version relevée dans les notebooks.
+#
+# Pour le GPU, installer d'abord torch avec l'index CUDA adapté : https://pytorch.org/get-started/locally/
+
+ultralytics==8.4.163
+torch==2.10.0
+torchvision
+sahi==0.12.8
+matplotlib==3.10.0
+numpy
+pandas
+pillow
+pyyaml
+opencv-python
+requests
+
+# Notebooks 03 et archive (lecture des annotations GeoJSON de xView)
+geopandas
+
+# Notebook 06 : sauvegarde des points de contrôle sur un dataset Kaggle (optionnel)
+kaggle
+
+# Exécution locale des notebooks
+jupyterlab
