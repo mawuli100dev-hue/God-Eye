@@ -1,0 +1,39 @@
+# Données brutes et dérivées (xView, DOTA, tuiles) : à télécharger, jamais versionnées
+data/
+data_lake/
+datasets/
+train_data/
+*.tif
+*.tiff
+*.zip
+*.tgz
+
+# Entraînements et poids (publiés dans une Release GitHub)
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
+ckpt_backup/
+
+# Sorties générées par le notebook 08
+*_Resultats/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+kaggle.json
+access_token
+
+# Outils locaux
+.omc/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
